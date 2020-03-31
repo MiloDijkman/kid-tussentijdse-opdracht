@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+.logo{
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 100%;
+}
+
+.Registrerentitel{
+  text-align: center;
+  font-size: 80px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
+}
+
+.TitleDescription{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+
+}
+
+.inloggentitle{
+  color: #8A3CFF;
+  font-size: 60px;
+  margin-left: 10%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.invulbox{
+  margin-left: 10%;
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  width: 80%;
+  cursor: pointer;
+}
+
+.buttonRegistreren{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(266deg, rgba(138,60,255,1) 0%, rgba(0,196,255,1) 100%);
+  color: white;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 20px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  cursor: pointer;
+
+}
+.allaccount{
+  margin-top: 40px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.allaccount2{
+  background: -webkit-linear-gradient(rgba(0,196,255,1), #8A3CFF);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ cursor: pointer;
+}
+
+.gridlines {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.griditem {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#img{
+  width: 85%;
+  border-radius: 50%;
+  cursor: pointer;
+}
